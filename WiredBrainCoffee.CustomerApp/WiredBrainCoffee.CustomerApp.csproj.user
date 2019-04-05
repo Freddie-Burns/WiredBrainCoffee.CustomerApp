@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Source>C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\images\wired_brain_coffee.png</Source>
+    <SmallTileSource>C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\images\wired_brain_coffee.png</SmallTileSource>
+    <MediumTileSource>C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\images\wired_brain_coffee.png</MediumTileSource>
+    <WideTileSource>C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\images\wired_brain_coffee.png</WideTileSource>
+    <LargeTileSource>C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\images\wired_brain_coffee.png</LargeTileSource>
+    <AppIconSource>C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\images\wired_brain_coffee.png</AppIconSource>
+    <SplashScreenSource>C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\images\wired_brain_coffee.png</SplashScreenSource>
+    <PackageLogoSource>C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\images\wired_brain_coffee.png</PackageLogoSource>
+  </PropertyGroup>
+</Project>
