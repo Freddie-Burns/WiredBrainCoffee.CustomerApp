@@ -7,24 +7,16 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-    <Page.Content>
-        <Grid>
-            <Grid.Children>
-                <Button VerticalAlignment="Top"
-                        HorizontalAlignment="Left"
-                        Margin="10"
-                        Click="ButtonAddCustomer_Click">
-                    <Button.Content>
-                        <StackPanel Orientation="Horizontal">
-                            <StackPanel.Children>
-                            <SymbolIcon Symbol="AddFriend"/>
-                            <TextBlock Text="Add customer"
-                                       Margin="5 0 0 0"/>
-                            </StackPanel.Children>
-                        </StackPanel>
-                    </Button.Content>
-                </Button>
-            </Grid.Children>
-        </Grid>
-    </Page.Content>
+    <Grid>
+        <Button VerticalAlignment="Top"
+                HorizontalAlignment="Left"
+                Margin="10"
+                Click="ButtonAddCustomer_Click">
+            <StackPanel Orientation="Horizontal">
+                <SymbolIcon Symbol="AddFriend" />
+                <TextBlock Text="Add customer"
+                           Margin="5 0 0 0"/>
+            </StackPanel>
+        </Button>
+    </Grid>
 </Page>

@@ -7,13 +7,16 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
     <Grid>
         <Button x:ConnectionId='2' VerticalAlignment="Top"
                 HorizontalAlignment="Left"
                 Margin="10"
                                                >
-            <Button.Content>Add customer</Button.Content>
+            <StackPanel Orientation="Horizontal">
+                <SymbolIcon Symbol="AddFriend" />
+                <TextBlock Text="Add customer"
+                           Margin="5 0 0 0"/>
+            </StackPanel>
         </Button>
     </Grid>
 </Page>
