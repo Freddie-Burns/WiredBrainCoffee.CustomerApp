@@ -9,11 +9,12 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Button x:ConnectionId='2' Content="Add customer"
-                VerticalAlignment="Top"
+        <Button x:ConnectionId='2' VerticalAlignment="Top"
                 HorizontalAlignment="Left"
                 Margin="10"
-                                               />
+                                               >
+            <Button.Content>Add customer</Button.Content>
+        </Button>
     </Grid>
 </Page>
 
