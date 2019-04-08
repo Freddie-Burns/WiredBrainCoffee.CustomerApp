@@ -48,6 +48,8 @@ Assets\Wide310x150Logo.scale-400.png
 App.xbf
 Controls\CustomerDetailControl.xbf
 MainPage.xbf
+Resources\Brushes.xbf
+Resources\Strings.xbf
 WiredBrainCoffee.CustomerApp.xr.xml
 Images\logo.png
 Properties\Default.rd.xml

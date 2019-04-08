@@ -589,6 +589,12 @@
     <AppxPackagedFile Include="C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\bin\x86\Debug\Resources\Brushes.xbf">
+      <PackagePath>Resources\Brushes.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\bin\x86\Debug\Resources\Strings.xbf">
+      <PackagePath>Resources\Strings.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>

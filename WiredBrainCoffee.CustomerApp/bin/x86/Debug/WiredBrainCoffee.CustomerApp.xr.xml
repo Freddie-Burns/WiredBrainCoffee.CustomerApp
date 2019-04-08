@@ -7,9 +7,10 @@
     <RootType FullName="Windows.UI.Xaml.Application">
       <RootProperty Name="Resources" />
     </RootType>
-    <RootType FullName="System.String" />
-    <RootType FullName="Windows.UI.Xaml.Media.SolidColorBrush">
-      <RootProperty Name="Color" />
+    <RootType FullName="Windows.UI.Xaml.ResourceDictionary">
+      <RootProperty Name="MergedDictionaries" />
+      <RootProperty Name="Source" />
+      <RootProperty Name="ThemeDictionaries" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.UserControl">
       <RootProperty Name="Content" />
@@ -33,7 +34,6 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="Header" />
-      <RootProperty Name="Background" />
       <RootProperty Name="Margin" />
       <RootEvent Name="TextChanged" />
     </RootType>
@@ -43,7 +43,6 @@
       <RootEvent Name="Checked" />
       <RootEvent Name="Unchecked" />
     </RootType>
-    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
     <RootType FullName="WiredBrainCoffee.CustomerApp.Controls.CustomerDetailControl" />
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
       <RootProperty Name="Background" />
@@ -83,6 +82,11 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Margin" />
     </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
     <RootType FullName="WiredBrainCoffee.CustomerApp.MainPage" />
+    <RootType FullName="Windows.UI.Xaml.Media.SolidColorBrush">
+      <RootProperty Name="Color" />
+    </RootType>
+    <RootType FullName="System.String" />
   </Roots.RootTypes>
 </Roots>

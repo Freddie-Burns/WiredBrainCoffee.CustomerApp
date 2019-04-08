@@ -233,3 +233,9 @@ C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.Customer
 C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\obj\x86\Debug\Controls\CustomerDetailControl.g.cs
 C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\obj\x86\Debug\Controls\CustomerDetailControl.xaml
 C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\obj\x86\Debug\Controls\CustomerDetailControl.xbf
+C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\bin\x86\Debug\Resources\Brushes.xbf
+C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\bin\x86\Debug\Resources\Strings.xbf
+C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\obj\x86\Debug\Resources\Brushes.xaml
+C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\obj\x86\Debug\Resources\Strings.xaml
+C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\obj\x86\Debug\Resources\Brushes.xbf
+C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\obj\x86\Debug\Resources\Strings.xbf
