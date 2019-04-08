@@ -43,9 +43,16 @@
                        VerticalAlignment="Bottom"
                        Margin="0 0 0 25"/>
         </StackPanel>
-        
+
+        <Button x:ConnectionId='2' Content="Toggle theme" 
+                Grid.ColumnSpan="3"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Top"
+                Margin="10"
+                                               />
+
         <!-- Customer list -->
-        <Grid x:ConnectionId='2' Grid.Row="1" 
+        <Grid x:ConnectionId='3' Grid.Row="1" 
               x:Name="customerListGrid"
               Background="{ThemeResource customerListBackgroundBrush}">
             <Grid.RowDefinitions>
@@ -54,20 +61,20 @@
             </Grid.RowDefinitions>
 
             <StackPanel Orientation="Horizontal">
-                <Button x:ConnectionId='5' Margin="10"                         >
+                <Button x:ConnectionId='6' Margin="10"                         >
                     <StackPanel Orientation="Horizontal">
-                        <SymbolIcon x:ConnectionId='8' Symbol="Forward"
+                        <SymbolIcon x:ConnectionId='9' Symbol="Forward"
                                     x:Name="moveSymbolIcon"/>
                     </StackPanel>
                 </Button>
-                <Button x:ConnectionId='6' Margin="10"                                >
+                <Button x:ConnectionId='7' Margin="10"                                >
                     <StackPanel Orientation="Horizontal">
                         <SymbolIcon Symbol="AddFriend"/>
                         <TextBlock Text="Add"
                                    Margin="5 0 0 0"/>
                     </StackPanel>
                 </Button>
-                <Button x:ConnectionId='7' Margin="10"                                   >
+                <Button x:ConnectionId='8' Margin="10"                                   >
                     <StackPanel Orientation="Horizontal">
                         <SymbolIcon Symbol="Delete"/>
                         <TextBlock Text="Delete"
@@ -76,7 +83,7 @@
                 </Button>
             </StackPanel>
 
-            <ListView x:ConnectionId='4' Grid.Row="1" 
+            <ListView x:ConnectionId='5' Grid.Row="1" 
                       x:Name="customerListView"
                       DisplayMemberPath="FirstName"
                                                                           >
@@ -84,7 +91,7 @@
         </Grid>
         
         <!-- Customer detail -->
-        <controls:CustomerDetailControl x:ConnectionId='3' Grid.Row="1"
+        <controls:CustomerDetailControl x:ConnectionId='4' Grid.Row="1"
                                         Grid.Column="1"
                                         x:Name="customerDetailControl"/>
     </Grid>
