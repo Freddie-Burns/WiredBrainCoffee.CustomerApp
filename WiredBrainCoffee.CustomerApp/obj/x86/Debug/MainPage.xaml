@@ -50,20 +50,20 @@
             </Grid.RowDefinitions>
 
             <StackPanel Orientation="Horizontal">
-                <Button x:ConnectionId='3' Margin="10"                         >
+                <Button x:ConnectionId='4' Margin="10"                         >
                     <StackPanel Orientation="Horizontal">
-                        <SymbolIcon x:ConnectionId='6' Symbol="Forward"
+                        <SymbolIcon x:ConnectionId='7' Symbol="Forward"
                                     x:Name="moveSymbolIcon"/>
                     </StackPanel>
                 </Button>
-                <Button x:ConnectionId='4' Margin="10"                                >
+                <Button x:ConnectionId='5' Margin="10"                                >
                     <StackPanel Orientation="Horizontal">
                         <SymbolIcon Symbol="AddFriend"/>
                         <TextBlock Text="Add"
                                    Margin="5 0 0 0"/>
                     </StackPanel>
                 </Button>
-                <Button x:ConnectionId='5' Margin="10"                                   >
+                <Button x:ConnectionId='6' Margin="10"                                   >
                     <StackPanel Orientation="Horizontal">
                         <SymbolIcon Symbol="Delete"/>
                         <TextBlock Text="Delete"
@@ -72,12 +72,9 @@
                 </Button>
             </StackPanel>
 
-            <ListView Grid.Row="1">
-                <ListViewItem>Thomas</ListViewItem>
-                <ListViewItem>Julia</ListViewItem>
-                <ListViewItem>Anna</ListViewItem>
-                <ListViewItem>Sara</ListViewItem>
-            </ListView>
+            <ListView x:ConnectionId='3' Grid.Row="1" 
+                      x:Name="customerListView"
+                      DisplayMemberPath="FirstName"/>
         </Grid>
         
         <!-- Customer detail -->
