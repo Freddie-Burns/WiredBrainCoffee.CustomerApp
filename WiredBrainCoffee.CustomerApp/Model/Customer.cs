@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Windows.Foundation.Metadata;
 using WiredBrainCoffee.CustomerApp.Base;
 
 namespace WiredBrainCoffee.CustomerApp.Model
 {
+    [CreateFromString(MethodName = "WiredBrainCoffee.CustomerApp.Model.CustomerConverter.CreateCustomerFromString")]
     public class Customer : Observable
     {
         private string _firstName;

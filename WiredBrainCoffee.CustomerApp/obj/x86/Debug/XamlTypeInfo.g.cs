@@ -275,6 +275,7 @@ namespace WiredBrainCoffee.CustomerApp.WiredBrainCoffee_CustomerApp_XamlTypeInfo
             case 2:   //  WiredBrainCoffee.CustomerApp.Model.Customer
                 userType = new global::WiredBrainCoffee.CustomerApp.WiredBrainCoffee_CustomerApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("WiredBrainCoffee.CustomerApp.Base.Observable"));
                 userType.Activator = Activate_2_Customer;
+                userType.CreateFromStringMethod = global::WiredBrainCoffee.CustomerApp.Model.CustomerConverter.CreateCustomerFromString;
                 userType.AddMemberName("FirstName");
                 userType.AddMemberName("LastName");
                 userType.AddMemberName("IsDeveloper");
