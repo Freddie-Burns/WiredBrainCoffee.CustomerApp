@@ -25,7 +25,13 @@ namespace WiredBrainCoffee.CustomerApp
 
         private void ButtonMove_Click(object sender, RoutedEventArgs e)
         {
+            int column = (int)customerListGrid.GetValue(Grid.ColumnProperty);
 
+            int newColumn = column == 0 ? 2 : 0;
+
+            customerListGrid.SetValue(Grid.ColumnProperty, newColumn);
+
+            moveSymbolIcon.Symbol = newColumn == 0 ? Symbol.Forward : Symbol.Back;
         }
     }
 }

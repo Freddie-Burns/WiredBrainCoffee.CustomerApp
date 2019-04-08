@@ -13,6 +13,7 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto"/>
             <ColumnDefinition/>
+            <ColumnDefinition Width="Auto"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -20,7 +21,7 @@
         </Grid.RowDefinitions>
         
         <!-- Header -->
-        <StackPanel Grid.ColumnSpan="2"
+        <StackPanel Grid.ColumnSpan="3"
                     Background="#F05A28"
                     Orientation="Horizontal">
             <Image Source="Images/logo.png"
@@ -40,7 +41,9 @@
         </StackPanel>
         
         <!-- Customer list -->
-        <Grid Grid.Row="1" Background="#EEEEEE">
+        <Grid Grid.Row="1" 
+              x:Name="customerListGrid"
+              Background="#EEEEEE">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition/>
@@ -49,7 +52,8 @@
             <StackPanel Orientation="Horizontal">
                 <Button Margin="10" Click="ButtonMove_Click">
                     <StackPanel Orientation="Horizontal">
-                        <SymbolIcon Symbol="Forward"/>
+                        <SymbolIcon Symbol="Forward"
+                                    x:Name="moveSymbolIcon"/>
                     </StackPanel>
                 </Button>
                 <Button Margin="10" Click="ButtonAddCustomer_Click">
