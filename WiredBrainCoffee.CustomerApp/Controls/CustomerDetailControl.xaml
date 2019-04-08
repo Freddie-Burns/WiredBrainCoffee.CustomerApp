@@ -10,19 +10,19 @@
     d:DesignWidth="400">
 
     <StackPanel Grid.Row="1"
-                    Grid.Column="1">
+                Grid.Column="1">
         <TextBox Header="Firstname" 
-                     Margin="10" 
-                     x:Name="txtFirstName"
-                     TextChanged="TextBox_TextChanged"/>
+                 Margin="10" 
+                 x:Name="txtFirstName"
+                 TextChanged="TextBox_TextChanged"/>
         <TextBox Header="Lastname" 
-                     Margin="10" 
-                     x:Name="txtLastName"
-                     TextChanged="TextBox_TextChanged"/>
+                 Margin="10" 
+                 x:Name="txtLastName"
+                 TextChanged="TextBox_TextChanged"/>
         <CheckBox Content="Is developer" 
-                      Margin="10" 
-                      x:Name="chkIsDeveloper"
-                      Checked="CheckBox_IsCheckedChanged"
-                      Unchecked="CheckBox_IsCheckedChanged"/>
+                  Margin="10" 
+                  x:Name="chkIsDeveloper"
+                  Checked="CheckBox_IsCheckedChanged"
+                  Unchecked="CheckBox_IsCheckedChanged"/>
     </StackPanel>
 </UserControl>
