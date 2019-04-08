@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T09:23:03.702</Modified>
+      <Modified>2019-04-08T10:01:36.569</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\bin\x86\Debug\WiredBrainCoffee.CustomerApp.exe">
       <PackagePath>entrypoint\WiredBrainCoffee.CustomerApp.exe</PackagePath>
-      <Modified>2019-04-08T09:23:03.165</Modified>
+      <Modified>2019-04-08T10:01:36.100</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fb142897\.nuget\packages\microsoft.csharp\4.3.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -757,15 +757,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\bin\x86\Debug\WiredBrainCoffee.CustomerApp.xr.xml">
       <PackagePath>WiredBrainCoffee.CustomerApp.xr.xml</PackagePath>
-      <Modified>2019-04-08T09:23:02.945</Modified>
+      <Modified>2019-04-08T10:01:35.847</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-04-08T09:23:02.956</Modified>
+      <Modified>2019-04-08T10:01:35.857</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-04-08T09:23:02.957</Modified>
+      <Modified>2019-04-08T10:01:35.858</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -777,7 +777,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\bin\x86\Debug\Core\WiredBrainCoffee.CustomerApp.exe">
       <PackagePath>WiredBrainCoffee.CustomerApp.exe</PackagePath>
-      <Modified>2019-04-08T09:23:03.693</Modified>
+      <Modified>2019-04-08T10:01:36.560</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
