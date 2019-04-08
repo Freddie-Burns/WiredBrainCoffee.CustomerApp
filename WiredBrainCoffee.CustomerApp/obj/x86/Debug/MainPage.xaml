@@ -45,24 +45,32 @@
                 <RowDefinition Height="Auto"/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
-            
-            <Button x:ConnectionId='2' Grid.Row="0" Margin="10" 
-                                                   >
-                <StackPanel Orientation="Horizontal">
-                    <SymbolIcon Symbol="AddFriend"/>
-                    <TextBlock Text="Add customer"
-                               Margin="5 0 0 0"/>
-                </StackPanel>
-            </Button>
+
+            <StackPanel Orientation="Horizontal">
+                <Button x:ConnectionId='2' Margin="10"                         >
+                    <StackPanel Orientation="Horizontal">
+                        <SymbolIcon Symbol="Forward"/>
+                    </StackPanel>
+                </Button>
+                <Button x:ConnectionId='3' Margin="10"                                >
+                    <StackPanel Orientation="Horizontal">
+                        <SymbolIcon Symbol="AddFriend"/>
+                        <TextBlock Text="Add"
+                                   Margin="5 0 0 0"/>
+                    </StackPanel>
+                </Button>
+                <Button x:ConnectionId='4' Margin="10"                                   >
+                    <StackPanel Orientation="Horizontal">
+                        <SymbolIcon Symbol="Delete"/>
+                        <TextBlock Text="Delete"
+                                   Margin="5 0 0 0"/>
+                    </StackPanel>
+                </Button>
+            </StackPanel>
 
             <ListView Grid.Row="1">
                 <ListViewItem>Thomas</ListViewItem>
                 <ListViewItem>Julia</ListViewItem>
-                <ListViewItem>Anna</ListViewItem>
-                <ListViewItem>Anna</ListViewItem>
-                <ListViewItem>Anna</ListViewItem>
-                <ListViewItem>Anna</ListViewItem>
-                <ListViewItem>Anna</ListViewItem>
                 <ListViewItem>Anna</ListViewItem>
                 <ListViewItem>Sara</ListViewItem>
             </ListView>

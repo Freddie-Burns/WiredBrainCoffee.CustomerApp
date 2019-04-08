@@ -17,5 +17,15 @@ namespace WiredBrainCoffee.CustomerApp
             var messageDialog = new MessageDialog("Customer added!");
             await messageDialog.ShowAsync();
         }
+
+        private void ButtonDeleteCustomer_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ButtonMove_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
