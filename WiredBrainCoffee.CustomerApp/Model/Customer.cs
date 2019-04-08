@@ -7,7 +7,7 @@ using WiredBrainCoffee.CustomerApp.Base;
 
 namespace WiredBrainCoffee.CustomerApp.Model
 {
-    class Customer : Observable
+    public class Customer : Observable
     {
         private string _firstName;
         private string _lastName;

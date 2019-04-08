@@ -583,6 +583,9 @@
     <AppxPackagedFile Include="C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\bin\x86\Debug\Controls\CustomerDetailControl.xbf">
+      <PackagePath>Controls\CustomerDetailControl.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>

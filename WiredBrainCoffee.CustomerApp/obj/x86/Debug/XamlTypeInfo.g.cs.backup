@@ -262,7 +262,6 @@ namespace WiredBrainCoffee.CustomerApp.WiredBrainCoffee_CustomerApp_XamlTypeInfo
             case 0:   //  WiredBrainCoffee.CustomerApp.Controls.CustomerDetailControl
                 userType = new global::WiredBrainCoffee.CustomerApp.WiredBrainCoffee_CustomerApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
                 userType.Activator = Activate_0_CustomerDetailControl;
-                userType.SetContentPropertyName("WiredBrainCoffee.CustomerApp.Controls.CustomerDetailControl.Customer");
                 userType.AddMemberName("Customer");
                 userType.SetIsLocalType();
                 xamlType = userType;
