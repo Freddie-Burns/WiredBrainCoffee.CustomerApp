@@ -4,7 +4,13 @@
     <RootPropertyPathName Name="FirstName" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
-    <RootType FullName="Windows.UI.Xaml.Application" />
+    <RootType FullName="Windows.UI.Xaml.Application">
+      <RootProperty Name="Resources" />
+    </RootType>
+    <RootType FullName="System.String" />
+    <RootType FullName="Windows.UI.Xaml.Media.SolidColorBrush">
+      <RootProperty Name="Color" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.UserControl">
       <RootProperty Name="Content" />
     </RootType>
@@ -36,20 +42,13 @@
       <RootEvent Name="Checked" />
       <RootEvent Name="Unchecked" />
     </RootType>
-    <RootType FullName="WiredBrainCoffee.CustomerApp.Controls.CustomerDetailControl">
-      <RootProperty Name="Customer" />
-    </RootType>
+    <RootType FullName="WiredBrainCoffee.CustomerApp.Controls.CustomerDetailControl" />
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
       <RootProperty Name="Background" />
       <RootProperty Name="Resources" />
       <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
-    <RootType FullName="WiredBrainCoffee.CustomerApp.Model.Customer">
-      <RootProperty Name="FirstName" />
-      <RootProperty Name="LastName" />
-      <RootProperty Name="IsDeveloper" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
       <RootProperty Name="Width" />
     </RootType>
