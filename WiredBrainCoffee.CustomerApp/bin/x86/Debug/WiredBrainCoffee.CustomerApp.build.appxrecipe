@@ -530,6 +530,9 @@
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\Images\logo.png">
+      <PackagePath>Images\logo.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
