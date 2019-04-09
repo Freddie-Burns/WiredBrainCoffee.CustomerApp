@@ -50,6 +50,7 @@ Controls\CustomerDetailControl.xbf
 MainPage.xbf
 Resources\Brushes.xbf
 Resources\Strings.xbf
+Resources\Styles.xbf
 WiredBrainCoffee.CustomerApp.xr.xml
 Images\logo.png
 Properties\Default.rd.xml
