@@ -88,11 +88,11 @@
                       ItemsSource="{x:Bind ViewModel.Customers,Mode=OneWay}"
                       SelectedItem="{x:Bind ViewModel.SelectedCustomer,Mode=TwoWay}">
                 <ListView.ItemTemplate>
-                    <DataTemplate>
+                    <DataTemplate x:DataType="model:Customer">
                         <StackPanel Orientation="Horizontal">
-                            <TextBlock Text="{Binding FirstName,Mode=OneWay}"
+                            <TextBlock Text="{x:Bind FirstName,Mode=OneWay}"
                                        FontWeight="Bold"/>
-                            <TextBlock Text="{Binding LastName,Mode=OneWay}"
+                            <TextBlock Text="{x:Bind LastName,Mode=OneWay}"
                                        Margin="5 0 0 0"/>
                         </StackPanel>
                     </DataTemplate>
