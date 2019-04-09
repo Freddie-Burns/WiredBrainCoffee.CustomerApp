@@ -6,19 +6,21 @@ using WiredBrainCoffee.CustomerApp.DataProvider;
 using Windows.ApplicationModel;
 using System.Linq;
 using WiredBrainCoffee.CustomerApp.Model;
+using WiredBrainCoffee.CustomerApp.ViewModel;
 
 namespace WiredBrainCoffee.CustomerApp
 {
     public sealed partial class MainPage : Page
     {
-        private CustomerDataProvider _customerDataProvider;
+        public MainViewModel ViewModel { get; }
 
         public MainPage()
         {
             this.InitializeComponent();
+            ViewModel = new MainViewModel(new CustomerDataProvider());
+            DataContext = ViewModel;
             this.Loaded += MainPage_Loaded;
             App.Current.Suspending += App_Suspending;
-            _customerDataProvider = new CustomerDataProvider();
             RequestedTheme = App.Current.RequestedTheme == ApplicationTheme.Dark
                 ? ElementTheme.Dark
                 : ElementTheme.Light;
@@ -26,20 +28,13 @@ namespace WiredBrainCoffee.CustomerApp
 
         private async void MainPage_Loaded(object sender, RoutedEventArgs e)
         {
-            customerListView.Items.Clear();
-
-            var customers = await _customerDataProvider.LoadCustomersAsync();
-            foreach (var customer in customers)
-            {
-                customerListView.Items.Add(customer);
-            }
+            await ViewModel.LoadAsync();
         }
 
         private async void App_Suspending(object sender, SuspendingEventArgs e)
         {
             var deferral = e.SuspendingOperation.GetDeferral();
-            await _customerDataProvider.SaveCustomerAsync(
-                customerListView.Items.OfType<Customer>());
+            await ViewModel.SaveAsync();
             deferral.Complete();
         }
 

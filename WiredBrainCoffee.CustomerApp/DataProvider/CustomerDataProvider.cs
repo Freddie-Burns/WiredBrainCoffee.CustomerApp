@@ -10,7 +10,7 @@ using WiredBrainCoffee.CustomerApp.Model;
 
 namespace WiredBrainCoffee.CustomerApp.DataProvider
 {
-    class CustomerDataProvider
+    class CustomerDataProvider : ICustomerDataProvider
     {
         private static readonly string _customersFileName = "customers.json";
         private static readonly StorageFolder _localFolder = ApplicationData.Current.LocalFolder;

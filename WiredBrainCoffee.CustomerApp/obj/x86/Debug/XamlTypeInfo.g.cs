@@ -189,7 +189,7 @@ namespace WiredBrainCoffee.CustomerApp.WiredBrainCoffee_CustomerApp_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[7];
+            _typeNameTable = new string[8];
             _typeNameTable[0] = "WiredBrainCoffee.CustomerApp.Controls.CustomerDetailControl";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.UserControl";
             _typeNameTable[2] = "WiredBrainCoffee.CustomerApp.Model.Customer";
@@ -197,8 +197,9 @@ namespace WiredBrainCoffee.CustomerApp.WiredBrainCoffee_CustomerApp_XamlTypeInfo
             _typeNameTable[4] = "Object";
             _typeNameTable[5] = "WiredBrainCoffee.CustomerApp.MainPage";
             _typeNameTable[6] = "Windows.UI.Xaml.Controls.Page";
+            _typeNameTable[7] = "WiredBrainCoffee.CustomerApp.ViewModel.MainViewModel";
 
-            _typeTable = new global::System.Type[7];
+            _typeTable = new global::System.Type[8];
             _typeTable[0] = typeof(global::WiredBrainCoffee.CustomerApp.Controls.CustomerDetailControl);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
             _typeTable[2] = typeof(global::WiredBrainCoffee.CustomerApp.Model.Customer);
@@ -206,6 +207,7 @@ namespace WiredBrainCoffee.CustomerApp.WiredBrainCoffee_CustomerApp_XamlTypeInfo
             _typeTable[4] = typeof(global::System.Object);
             _typeTable[5] = typeof(global::WiredBrainCoffee.CustomerApp.MainPage);
             _typeTable[6] = typeof(global::Windows.UI.Xaml.Controls.Page);
+            _typeTable[7] = typeof(global::WiredBrainCoffee.CustomerApp.ViewModel.MainViewModel);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -290,12 +292,20 @@ namespace WiredBrainCoffee.CustomerApp.WiredBrainCoffee_CustomerApp_XamlTypeInfo
             case 5:   //  WiredBrainCoffee.CustomerApp.MainPage
                 userType = new global::WiredBrainCoffee.CustomerApp.WiredBrainCoffee_CustomerApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_5_MainPage;
+                userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
             case 6:   //  Windows.UI.Xaml.Controls.Page
                 xamlType = new global::WiredBrainCoffee.CustomerApp.WiredBrainCoffee_CustomerApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 7:   //  WiredBrainCoffee.CustomerApp.ViewModel.MainViewModel
+                userType = new global::WiredBrainCoffee.CustomerApp.WiredBrainCoffee_CustomerApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
+                xamlType = userType;
                 break;
             }
             return xamlType;
@@ -312,6 +322,11 @@ namespace WiredBrainCoffee.CustomerApp.WiredBrainCoffee_CustomerApp_XamlTypeInfo
             var that = (global::WiredBrainCoffee.CustomerApp.Controls.CustomerDetailControl)instance;
             that.Customer = (global::WiredBrainCoffee.CustomerApp.Model.Customer)Value;
         }
+        private object get_1_MainPage_ViewModel(object instance)
+        {
+            var that = (global::WiredBrainCoffee.CustomerApp.MainPage)instance;
+            return that.ViewModel;
+        }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
@@ -326,6 +341,12 @@ namespace WiredBrainCoffee.CustomerApp.WiredBrainCoffee_CustomerApp_XamlTypeInfo
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_0_CustomerDetailControl_Customer;
                 xamlMember.Setter = set_0_CustomerDetailControl_Customer;
+                break;
+            case "WiredBrainCoffee.CustomerApp.MainPage.ViewModel":
+                userType = (global::WiredBrainCoffee.CustomerApp.WiredBrainCoffee_CustomerApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WiredBrainCoffee.CustomerApp.MainPage");
+                xamlMember = new global::WiredBrainCoffee.CustomerApp.WiredBrainCoffee_CustomerApp_XamlTypeInfo.XamlMember(this, "ViewModel", "WiredBrainCoffee.CustomerApp.ViewModel.MainViewModel");
+                xamlMember.Getter = get_1_MainPage_ViewModel;
+                xamlMember.SetIsReadOnly();
                 break;
             }
             return xamlMember;

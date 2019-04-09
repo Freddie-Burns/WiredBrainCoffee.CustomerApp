@@ -85,8 +85,8 @@
 
             <ListView Grid.Row="1" 
                       x:Name="customerListView"
-                      DisplayMemberPath="FirstName">
-            </ListView>
+                      DisplayMemberPath="FirstName"
+                      ItemsSource="{Binding Path=Customers,Mode=OneWay}"/>
         </Grid>
         
         <!-- Customer detail -->
