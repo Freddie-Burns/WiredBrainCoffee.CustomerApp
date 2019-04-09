@@ -323,6 +323,7 @@ namespace WiredBrainCoffee.CustomerApp.WiredBrainCoffee_CustomerApp_XamlTypeInfo
             case "WiredBrainCoffee.CustomerApp.Controls.CustomerDetailControl.Customer":
                 userType = (global::WiredBrainCoffee.CustomerApp.WiredBrainCoffee_CustomerApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WiredBrainCoffee.CustomerApp.Controls.CustomerDetailControl");
                 xamlMember = new global::WiredBrainCoffee.CustomerApp.WiredBrainCoffee_CustomerApp_XamlTypeInfo.XamlMember(this, "Customer", "WiredBrainCoffee.CustomerApp.Model.Customer");
+                xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_0_CustomerDetailControl_Customer;
                 xamlMember.Setter = set_0_CustomerDetailControl_Customer;
                 break;

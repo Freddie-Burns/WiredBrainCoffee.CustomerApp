@@ -85,15 +85,16 @@
 
             <ListView x:ConnectionId='5' Grid.Row="1" 
                       x:Name="customerListView"
-                      DisplayMemberPath="FirstName"
-                                                                          >
+                      DisplayMemberPath="FirstName">
             </ListView>
         </Grid>
         
         <!-- Customer detail -->
-        <controls:CustomerDetailControl x:ConnectionId='4' Grid.Row="1"
-                                        Grid.Column="1"
-                                        x:Name="customerDetailControl"/>
+        <controls:CustomerDetailControl x:ConnectionId='4' 
+            Grid.Row="1"
+            Grid.Column="1"
+            x:Name="customerDetailControl"
+            Customer="{Binding ElementName=customerListView,Path=SelectedItem,Mode=OneWay}"/>
     </Grid>
 </Page>
 

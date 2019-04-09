@@ -68,12 +68,6 @@ namespace WiredBrainCoffee.CustomerApp
             moveSymbolIcon.Symbol = newColumn == 0 ? Symbol.Forward : Symbol.Back;
         }
 
-        private void CustomerListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            var customer = customerListView.SelectedItem as Customer;
-            customerDetailControl.Customer = customer;
-        }
-
         private void ButtonToggleTheme_Click(object sender, RoutedEventArgs e)
         {
             this.RequestedTheme = RequestedTheme == ElementTheme.Dark
