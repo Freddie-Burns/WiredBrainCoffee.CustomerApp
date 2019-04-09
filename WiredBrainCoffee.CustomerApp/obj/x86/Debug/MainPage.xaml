@@ -1,4 +1,4 @@
-﻿<Page
+﻿<Page x:ConnectionId='1'
     x:Class="WiredBrainCoffee.CustomerApp.MainPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -85,14 +85,15 @@
 
             <ListView x:ConnectionId='5' Grid.Row="1" 
                       x:Name="customerListView"
-                      ItemsSource="{Binding Customers,Mode=OneWay}"
-                      SelectedItem="{Binding SelectedCustomer,Mode=TwoWay}">
+                                                                            
+                                                                                    >
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <StackPanel>
+                        <StackPanel Orientation="Horizontal">
                             <TextBlock Text="{Binding FirstName,Mode=OneWay}"
                                        FontWeight="Bold"/>
-                            <TextBlock Text="{Binding LastName,Mode=OneWay}"/>
+                            <TextBlock Text="{Binding LastName,Mode=OneWay}"
+                                       Margin="5 0 0 0"/>
                         </StackPanel>
                     </DataTemplate>
                 </ListView.ItemTemplate>
@@ -104,7 +105,7 @@
             Grid.Row="1"
             Grid.Column="1"
             x:Name="customerDetailControl"
-            Customer="{Binding SelectedCustomer,Mode=OneWay}"/>
+                                                                      />
     </Grid>
 </Page>
 

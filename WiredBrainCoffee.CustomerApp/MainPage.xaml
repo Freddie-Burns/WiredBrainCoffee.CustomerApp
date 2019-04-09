@@ -85,8 +85,8 @@
 
             <ListView Grid.Row="1" 
                       x:Name="customerListView"
-                      ItemsSource="{Binding Customers,Mode=OneWay}"
-                      SelectedItem="{Binding SelectedCustomer,Mode=TwoWay}">
+                      ItemsSource="{x:Bind ViewModel.Customers,Mode=OneWay}"
+                      SelectedItem="{x:Bind ViewModel.SelectedCustomer,Mode=TwoWay}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <StackPanel Orientation="Horizontal">
@@ -105,6 +105,6 @@
             Grid.Row="1"
             Grid.Column="1"
             x:Name="customerDetailControl"
-            Customer="{Binding SelectedCustomer,Mode=OneWay}"/>
+            Customer="{x:Bind ViewModel.SelectedCustomer,Mode=OneWay}"/>
     </Grid>
 </Page>
