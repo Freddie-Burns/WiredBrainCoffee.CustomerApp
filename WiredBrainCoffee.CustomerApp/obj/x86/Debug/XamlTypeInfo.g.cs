@@ -302,7 +302,7 @@ namespace WiredBrainCoffee.CustomerApp.WiredBrainCoffee_CustomerApp_XamlTypeInfo
                 break;
 
             case 7:   //  WiredBrainCoffee.CustomerApp.ViewModel.MainViewModel
-                userType = new global::WiredBrainCoffee.CustomerApp.WiredBrainCoffee_CustomerApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType = new global::WiredBrainCoffee.CustomerApp.WiredBrainCoffee_CustomerApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("WiredBrainCoffee.CustomerApp.Base.Observable"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;

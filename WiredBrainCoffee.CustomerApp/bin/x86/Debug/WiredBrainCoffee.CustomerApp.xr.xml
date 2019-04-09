@@ -5,7 +5,7 @@
     <RootPropertyPathName Name="IsDeveloper" />
     <RootPropertyPathName Name="LastName" />
     <RootPropertyPathName Name="FirstName" />
-    <RootPropertyPathName Name="SelectedItem" />
+    <RootPropertyPathName Name="SelectedCustomer" />
     <RootPropertyPathName Name="Customers" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
@@ -76,19 +76,23 @@
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
-      <RootProperty Name="DisplayMemberPath" />
       <RootProperty Name="ItemsSource" />
+      <RootProperty Name="SelectedItem" />
+      <RootProperty Name="ItemTemplate" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.SymbolIcon">
-      <RootProperty Name="Symbol" />
+    <RootType FullName="Windows.UI.Xaml.DataTemplate">
+      <RootProperty Name="Template" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="Text" />
+      <RootProperty Name="FontWeight" />
       <RootProperty Name="Margin" />
       <RootProperty Name="FontSize" />
-      <RootProperty Name="FontWeight" />
       <RootProperty Name="Foreground" />
       <RootProperty Name="VerticalAlignment" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.SymbolIcon">
+      <RootProperty Name="Symbol" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="Source" />

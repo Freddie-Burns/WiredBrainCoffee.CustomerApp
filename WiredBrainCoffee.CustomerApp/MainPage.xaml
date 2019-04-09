@@ -85,8 +85,18 @@
 
             <ListView Grid.Row="1" 
                       x:Name="customerListView"
-                      DisplayMemberPath="FirstName"
-                      ItemsSource="{Binding Path=Customers,Mode=OneWay}"/>
+                      ItemsSource="{Binding Customers,Mode=OneWay}"
+                      SelectedItem="{Binding SelectedCustomer,Mode=TwoWay}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel>
+                            <TextBlock Text="{Binding FirstName,Mode=OneWay}"
+                                       FontWeight="Bold"/>
+                            <TextBlock Text="{Binding LastName,Mode=OneWay}"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </Grid>
         
         <!-- Customer detail -->
@@ -94,6 +104,6 @@
             Grid.Row="1"
             Grid.Column="1"
             x:Name="customerDetailControl"
-            Customer="{Binding ElementName=customerListView,Path=SelectedItem,Mode=OneWay}"/>
+            Customer="{Binding SelectedCustomer,Mode=OneWay}"/>
     </Grid>
 </Page>
