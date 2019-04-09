@@ -67,14 +67,15 @@
                                     x:Name="moveSymbolIcon"/>
                     </StackPanel>
                 </Button>
-                <Button x:ConnectionId='11' Margin="10"                                >
+                <Button x:ConnectionId='11' Margin="10"                                       >
                     <StackPanel Orientation="Horizontal">
                         <SymbolIcon Symbol="AddFriend"/>
                         <TextBlock Text="Add"
                                    Margin="5 0 0 0"/>
                     </StackPanel>
                 </Button>
-                <Button x:ConnectionId='12' Margin="10"                                   >
+                <Button x:ConnectionId='12' Margin="10"                                          
+                                                                                     >
                     <StackPanel Orientation="Horizontal">
                         <SymbolIcon Symbol="Delete"/>
                         <TextBlock Text="Delete"
@@ -83,8 +84,7 @@
                 </Button>
             </StackPanel>
 
-            <ListView x:ConnectionId='5' Grid.Row="1" 
-                      x:Name="customerListView"
+            <ListView x:ConnectionId='5' Grid.Row="1"
                                                                             
                                                                                     >
                 <ListView.ItemTemplate>
