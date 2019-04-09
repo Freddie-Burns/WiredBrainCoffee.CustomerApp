@@ -45,6 +45,7 @@
     </RootType>
     <RootType FullName="WiredBrainCoffee.CustomerApp.Controls.CustomerDetailControl">
       <RootProperty Name="Customer" />
+      <RootProperty Name="Visibility" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
       <RootProperty Name="Background" />
@@ -77,6 +78,8 @@
       <RootProperty Name="Text" />
       <RootProperty Name="FontWeight" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="Opacity" />
+      <RootProperty Name="Visibility" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="Foreground" />
       <RootProperty Name="VerticalAlignment" />

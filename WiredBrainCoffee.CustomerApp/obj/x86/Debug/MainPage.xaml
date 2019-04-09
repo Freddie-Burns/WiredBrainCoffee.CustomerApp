@@ -61,20 +61,20 @@
             </Grid.RowDefinitions>
 
             <StackPanel Orientation="Horizontal">
-                <Button x:ConnectionId='9' Margin="10"                         >
+                <Button x:ConnectionId='10' Margin="10"                         >
                     <StackPanel Orientation="Horizontal">
-                        <SymbolIcon x:ConnectionId='12' Symbol="Forward"
+                        <SymbolIcon x:ConnectionId='13' Symbol="Forward"
                                     x:Name="moveSymbolIcon"/>
                     </StackPanel>
                 </Button>
-                <Button x:ConnectionId='10' Margin="10"                                >
+                <Button x:ConnectionId='11' Margin="10"                                >
                     <StackPanel Orientation="Horizontal">
                         <SymbolIcon Symbol="AddFriend"/>
                         <TextBlock Text="Add"
                                    Margin="5 0 0 0"/>
                     </StackPanel>
                 </Button>
-                <Button x:ConnectionId='11' Margin="10"                                   >
+                <Button x:ConnectionId='12' Margin="10"                                   >
                     <StackPanel Orientation="Horizontal">
                         <SymbolIcon Symbol="Delete"/>
                         <TextBlock Text="Delete"
@@ -94,6 +94,10 @@
                                        FontWeight="Bold"/>
                             <TextBlock x:ConnectionId='8'                                     
                                        Margin="5 0 0 0"/>
+                            <TextBlock x:ConnectionId='9' Text="(Developer)"
+                                       Margin="5 0 0 0"
+                                       Opacity="0.5"
+                                                                                    />
                         </StackPanel>
                     </DataTemplate>
                 </ListView.ItemTemplate>
@@ -105,7 +109,8 @@
             Grid.Row="1"
             Grid.Column="1"
             x:Name="customerDetailControl"
-                                                                      />
+                                                                      
+                                                                          />
     </Grid>
 </Page>
 
