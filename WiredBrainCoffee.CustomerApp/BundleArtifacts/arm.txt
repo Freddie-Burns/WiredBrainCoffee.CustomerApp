@@ -1,0 +1,6 @@
+MainPackage=C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\bin\ARM\Release\WiredBrainCoffee.CustomerApp_1.0.0.0_ARM.appx
+SymbolPackage=C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\AppPackages\WiredBrainCoffee.CustomerApp_1.0.0.0_Test\WiredBrainCoffee.CustomerApp_1.0.0.0_ARM.appxsym
+ResourcePack=C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\bin\ARM\Release\WiredBrainCoffee.CustomerApp_1.0.0.0_scale-100.appx
+ResourcePack=C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\bin\ARM\Release\WiredBrainCoffee.CustomerApp_1.0.0.0_scale-125.appx
+ResourcePack=C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\bin\ARM\Release\WiredBrainCoffee.CustomerApp_1.0.0.0_scale-150.appx
+ResourcePack=C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\bin\ARM\Release\WiredBrainCoffee.CustomerApp_1.0.0.0_scale-400.appx

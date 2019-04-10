@@ -1,0 +1,1 @@
+C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp.csproj;x64

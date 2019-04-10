@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\bin\x86\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-08T10:30:53.295</Modified>
+      <Modified>2019-04-09T12:23:30.474</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -273,19 +273,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\bin\x86\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-04-08T10:29:56.280</Modified>
+      <Modified>2019-04-09T12:22:38.645</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\bin\x86\Release\ilc\WiredBrainCoffee.CustomerApp.dll">
       <PackagePath>WiredBrainCoffee.CustomerApp.dll</PackagePath>
-      <Modified>2019-04-08T10:30:52.556</Modified>
+      <Modified>2019-04-09T12:23:29.691</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\bin\x86\Release\ilc\WiredBrainCoffee.CustomerApp.exe">
       <PackagePath>WiredBrainCoffee.CustomerApp.exe</PackagePath>
-      <Modified>2019-04-08T10:30:53.264</Modified>
+      <Modified>2019-04-09T12:23:30.430</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\bin\x86\Release\ilc\WiredBrainCoffee.CustomerApp.pdb">
       <PackagePath>WiredBrainCoffee.CustomerApp.pdb</PackagePath>
-      <Modified>2019-04-08T10:30:53.238</Modified>
+      <Modified>2019-04-09T12:23:30.405</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

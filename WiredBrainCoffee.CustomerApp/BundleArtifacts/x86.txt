@@ -1,0 +1,2 @@
+MainPackage=C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\bin\x86\Release\WiredBrainCoffee.CustomerApp_1.0.0.0_x86.appx
+SymbolPackage=C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\AppPackages\WiredBrainCoffee.CustomerApp_1.0.0.0_Test\WiredBrainCoffee.CustomerApp_1.0.0.0_x86.appxsym

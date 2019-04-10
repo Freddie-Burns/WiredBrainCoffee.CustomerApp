@@ -542,3 +542,17 @@ C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.Customer
 C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\obj\x86\Release\ilc\intermediate\WiredBrainCoffee.CustomerApp.McgInterop\PInvoke.g.cs
 C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\obj\x86\Release\ilc\intermediate\WiredBrainCoffee.CustomerApp.McgInterop\SafeTypes.g.cs
 C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\obj\x86\Release\ilc\intermediate\WiredBrainCoffee.CustomerApp.McgInterop\SharedStubs.g.cs
+C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\bin\x86\Release\Controls\CustomerDetailControl.xbf
+C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\bin\x86\Release\Resources\Brushes.xbf
+C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\bin\x86\Release\Resources\Strings.xbf
+C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\bin\x86\Release\Resources\Styles.xbf
+C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\obj\x86\Release\Controls\CustomerDetailControl.g.i.cs
+C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\obj\x86\Release\Controls\CustomerDetailControl.g.cs
+C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\obj\x86\Release\Controls\CustomerDetailControl.xaml
+C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\obj\x86\Release\Resources\Brushes.xaml
+C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\obj\x86\Release\Resources\Strings.xaml
+C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\obj\x86\Release\Resources\Styles.xaml
+C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\obj\x86\Release\Controls\CustomerDetailControl.xbf
+C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\obj\x86\Release\Resources\Brushes.xbf
+C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\obj\x86\Release\Resources\Strings.xbf
+C:\Users\fb142897\Code\CS\WiredBrainCoffee.CustomerApp\WiredBrainCoffee.CustomerApp\obj\x86\Release\Resources\Styles.xbf
